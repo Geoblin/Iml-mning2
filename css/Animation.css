@@ -1,0 +1,18 @@
+@media screen and (min-width: 1024px){
+
+
+@keyframes upanddown {
+    from {
+        margin-bottom: 100%;
+        width: 10%;
+    }
+    to{
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
+.grid-item:nth-of-type(1) img {
+    animation-duration: 3s;
+    animation-name: upanddown;
+}
+}
